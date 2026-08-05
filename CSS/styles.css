@@ -85,7 +85,7 @@ nav ul {
 #main{
     grid-column: 1;
     grid-row: 3;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 /*------------------*/
@@ -108,6 +108,10 @@ footer p{
     color: #333333;
 }
 
+
+/*----------------------*/
+/*      HOME PAGE      */
+/*--------------------*/
 
 /*  Home Photos  */
 #homePhotos{
@@ -231,3 +235,148 @@ footer p{
     text-align: center;
     font-size: 25pt;
 }
+
+
+/*-------------------------*/
+/*      CONTACT PAGE      */
+/*-----------------------*/
+
+#contactMain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#contactText{
+    margin-right: 20px;
+}
+
+/*  text set up  */
+#contactMain h3{
+    font-size: 17pt;
+    color: #333333;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#contactMain a,
+#contactMain a:visited {
+  color: #333333;
+  text-decoration-color: #333333;
+}
+
+#contactMain p{
+    color: #333333;
+    text-align: center;
+}
+
+#contactMain h2{
+    color: #333333;
+    font-size: 40pt;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#contactLinks{
+    margin-top: 20px;
+    padding: 20px 0 70px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+#contactLinks h3{
+    padding: 0;
+}
+
+/*-----------------------*/
+/*       SLIDESHOW      */
+/*---------------------*/
+
+
+#slideshow-text{
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: whitesmoke;
+    -webkit-text-stroke: 1.5px black;
+    font-size: 20pt;
+    font-weight: 1000;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 17pt;
+    font-weight: bolder;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*------------------------*/
+/*      ABT ME PAGE      */
+/*----------------------*/
+
