@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll; /*protege o site de, quando a pagina não precisa de scroll e dá resize, ficar estranho*/
+}
+
 /*----------------*/
 /*      BODY      */
 /*----------------*/
@@ -6,7 +10,7 @@ body{
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
     width: 100%;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 /*------------------*/
@@ -18,6 +22,7 @@ header{
     grid-column: 1;
     grid-row: 1;
     justify-content: center; /*põe no centro (horizontaly/screen width)*/
+    margin: 0 10px 0 0;
 }
 
 h1{
@@ -33,6 +38,7 @@ h1{
 nav {
     grid-column: 1;
     grid-row: 2;
+    margin: 0 23px 0 0;
 }
 
 nav li {
@@ -109,6 +115,7 @@ footer p{
     background-color: #799EBF;
     justify-content: center;
     height: 430px;
+    padding-left: 10px;
 }
 
 #homePhotos img{
@@ -120,30 +127,107 @@ footer p{
 #homeFieldsGDev{
     display: grid;
     padding: 80px 0 30px 0;
-    height: 600px;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: auto auto;
+    height: 800px;
+    grid-template-columns: 552px 552px;
+    grid-template-rows: 360px 360px;
     justify-content: center;
     column-gap: 150px; /* space between columns */
-    row-gap: 30px;    /* space between rows */
+    row-gap: 50px;    /* space between rows */
 }
 
 #homeGD{
     grid-row: 1;
     grid-column: 1;
+    background-image: url("../img/homeBox.png");
+    background-size: cover;       /* makes the image fill the div */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
+    padding: 20px 20px 0 10px;
+    justify-content: center;
+}
+
+#homeGD p{
+    color: #333333;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1.75;
+}
+
+#homeGD h2{
+    color: #333333;
+    text-align: center;
+    font-size: 25pt;
 }
 
 #homeWND{
     grid-row: 1;
     grid-column: 2;
+    background-image: url("../img/homeBox.png");
+    background-size: cover;       /* makes the image fill the div */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
+    padding: 10px 20px 0 10px;
+    justify-content: center;
+}
+
+#homeWND p{
+    color: #333333;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1.75;
+}
+
+#homeWND h2{
+    color: #333333;
+    text-align: center;
+    font-size: 25pt;
 }
 
 #homeUX{
     grid-row: 2;
     grid-column: 1;
+    background-image: url("../img/homeBox.png");
+    background-size: cover;       /* makes the image fill the div */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
+    padding: 20px 20px 0 10px;
+    justify-content: center;
+}
+
+#homeUX p{
+    color: #333333;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1.75;
+}
+
+#homeUX h2{
+    color: #333333;
+    text-align: center;
+    font-size: 25pt;
 }
 
 #homeAGD{
     grid-row: 2;
     grid-column: 2;
+    background-image: url("../img/homeBox.png");
+    background-size: cover;       /* makes the image fill the div */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
+    padding: 20px 20px 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeAGD p{
+    color: #333333;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1.75;
+}
+
+#homeAGD h2{
+    color: #333333;
+    text-align: center;
+    font-size: 25pt;
 }
