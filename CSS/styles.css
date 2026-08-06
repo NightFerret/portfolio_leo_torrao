@@ -475,3 +475,50 @@ footer p{
     line-height: 1.5;
     font-size: 13pt;
 }
+
+
+/*  GAME AWARDS  */
+
+#gameAwardsSection{
+    background-color: #799EBF;
+    margin-top: 50px;
+    padding: 3px 20px;
+    border: 2px dotted  black ;
+}
+
+#gameAwardsSection p{
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.75;
+    font-size: 13pt;
+}
+
+#gameAwardsSection .boldText{
+    padding-top: 5px;
+}
+
+#awardsDisplayed{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/*  GAME DEV SKILLS  */
+
+#skillsGameDevSection{
+    margin-top: 50px;
+    border: 2px dotted  #799EBF ;
+    padding: 0 20px 5px 20px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+#skillsGameDevSection p{
+    margin-left: 5px;
+    line-height: 1.5;
+    font-size: 13pt;
+}
+
+#skillsGameDevSection .boldText{
+    padding: 30px 0 0 0;
+}
