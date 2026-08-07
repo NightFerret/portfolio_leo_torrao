@@ -6,6 +6,11 @@ html {
     font-weight: bold;
 }
 
+#goBackButton{
+    width: 50px;
+}
+
+
 /*----------------*/
 /*      BODY      */
 /*----------------*/
@@ -524,7 +529,7 @@ footer p{
 }
 
 
-/*------------ ---------*/
+/*----------------------*/
 /*      PORTFOLIO      */
 /*--------------------*/
 
@@ -535,9 +540,12 @@ footer p{
     background-color: #799EBF;
     padding-bottom: 20px;
     margin-bottom: 50px;
-    color: #333333;
     text-align: center;
     border-radius: 36px;
+}
+
+#portfolioMain img{
+    border-radius: 16px;
 }
 
 #portfolioMain h2{
@@ -591,4 +599,74 @@ footer p{
     font-size: 17pt;
     margin-top: -40px;
     margin-bottom: 60px;
+}
+
+
+
+/*--------------------------------*/
+/*      NARRATIVE PORTFOLIO      */
+/*------------------------------*/
+
+#mainNWPortfolio{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#mainNWPortfolio #goBackButton{
+    padding: 10px;
+    background-color: #799EBF;
+    border-radius: 26px;
+    overflow: hidden;
+    border: 2px dotted black;
+}
+
+#mainNWPortfolio #goBackButton:hover{
+    filter: brightness(70%);
+}
+
+#mainNWPortfolio h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+}
+
+#mainNWPortfolio h3{
+    font-size: 27pt;
+}
+
+#narrativeShowcaseBigBox{
+    background-color: #799EBF;   
+}
+
+#narrativeShowcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+/*  all games  */
+
+#NDallShowcase{
+    background-color: #799EBF;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#NDallShowcase h3{
+    padding-top: 30px;
+}
+
+#NDallshowcaseGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding: 0 46px 70px 38px;
+    margin: 0 auto 50px auto;
+}
+
+#NDallshowcaseGrid img{
+    border: 4px inset white;
 }
