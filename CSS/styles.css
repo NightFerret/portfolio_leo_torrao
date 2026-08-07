@@ -611,6 +611,7 @@ footer p{
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
+    padding-top: 50px;
 }
 
 #mainNWPortfolio #goBackButton{
@@ -629,20 +630,97 @@ footer p{
     text-align: center;
     font-size: 50pt;
     color: #333333;
+    margin-top: 10px;
 }
 
 #mainNWPortfolio h3{
     font-size: 27pt;
+    text-align: center;
+    padding-top: 30px;
 }
 
 #narrativeShowcaseBigBox{
-    background-color: #799EBF;   
+    background-color: #799EBF;
+    border-radius: 30px;   
 }
 
 #narrativeShowcase{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+}
+
+#narrativeShowcase h4{
+    margin: 0;
+    padding: 20px 30px 0 30px;
+    font-size: 17pt;
+}
+
+#narrativeShowcase p{
+    margin: 0;
+    padding: 20px 30px 10px 30px;
+    line-height: 1.5;
+}
+
+#narrativeShowcase img{
+    width: 88%;
+    margin: 0 30px 30px 30px;
+}
+
+#narrativeShowcase img:hover{
+    filter: brightness(50%)
+}
+
+#WBYB_N_Showcase{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+    margin-left: 50px;
+    padding-top: 25px;
+    background-color: #cae1f6;
+    border-radius: 8px;
+}
+
+#MixtapeJ_N_Showcase{
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px;
+    padding-top: 25px;
+    margin-right: 50px;
+    background-color: #cae1f6;
+    border-radius: 8px;
+}
+
+#Escape_N_Showcase{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    margin-left: 50px;
+    padding-top: 30px;
+    background-color: #cae1f6;
+    border-radius: 8px;
+}
+
+#CBTS_N_Showcase{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+    padding-top: 20px;
+    margin-right: 50px;
+    background-color: #cae1f6;
+    border-radius: 8px;
+}
+
+#MS_N_Showcase{
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    background-color: #cae1f6;
+    border-radius: 8px;
 }
 
 
@@ -669,4 +747,8 @@ footer p{
 
 #NDallshowcaseGrid img{
     border: 4px inset white;
+}
+
+#NDallshowcaseGrid img:hover{
+    filter: brightness(50%)
 }
