@@ -817,14 +817,72 @@ footer p{
 }
 
 #contentNcbts{
-    
     padding-bottom: 20px;
 }
 
-#context, #excerpt{
+#contextNcbts, #excerptNcbts{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
     margin: 10px;
+    margin-bottom: 50px;
+}
+
+
+/*-----------------------*/
+/*      MY STATION      */
+/*---------------------*/
+
+#projectNms .slideshow-container{
+    max-width: 1120px;
+}
+
+#NmsMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+
+#NmsMain #goBackButton{
+    padding: 10px;
+    background-color: #799EBF;
+    border-radius: 26px;
+    overflow: hidden;
+    border: 2px dotted black;
+}
+
+#NmsMain #goBackButton:hover{
+    filter: brightness(70%);
+}
+
+#NmsMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#NmsMain h3{
+    font-size: 27pt;
+    text-align: left;
+}
+
+#NmsMain p{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contentNms{
+    margin-bottom: 10px;
+}
+
+#contextNms, #projectNms{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
     margin-bottom: 50px;
 }
