@@ -752,3 +752,79 @@ footer p{
 #NDallshowcaseGrid img:hover{
     filter: brightness(50%)
 }
+
+/*-------------------------*/
+/*      GD PORTFOLIO      */
+/*-----------------------*/
+
+
+
+/*-------------------------*/
+/*      UX PORTFOLIO      */
+/*-----------------------*/
+
+
+
+/*--------------------------*/
+/*      AGD PORTFOLIO      */
+/*------------------------*/
+
+
+
+/*--------------------------------*/
+/*      PORTFOLIO SHOWCASES      */
+/*------------------------------*/
+
+/*-------------------------------------*/
+/*      CONVERSATIONS BY THE SEA      */
+/*-----------------------------------*/
+
+#NcbtsMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#NcbtsMain #goBackButton{
+    padding: 10px;
+    background-color: #799EBF;
+    border-radius: 26px;
+    overflow: hidden;
+    border: 2px dotted black;
+}
+
+#NcbtsMain #goBackButton:hover{
+    filter: brightness(70%);
+}
+
+#NcbtsMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#NcbtsMain h3{
+    font-size: 27pt;
+    text-align: left;
+}
+
+#NcbtsMain p{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contentNcbts{
+    
+    padding-bottom: 20px;
+}
+
+#context, #excerpt{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
