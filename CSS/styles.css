@@ -1,5 +1,6 @@
 html {
     overflow-y: scroll; /*protege o site de, quando a pagina não precisa de scroll e dá resize, ficar estranho*/
+    scroll-behavior: smooth;
 }
 
 .boldText{
@@ -11,9 +12,9 @@ html {
 }
 
 
-/*----------------*/
+/*-----------------*/
 /*      BODY      */
-/*----------------*/
+/*---------------*/
 body{
     display: grid;
     grid-template-columns: auto;
@@ -22,9 +23,9 @@ body{
     margin: 0 auto;
 }
 
-/*------------------*/
+/*-------------------*/
 /*      HEADER      */
-/*------------------*/
+/*-----------------*/
 
 header{
     display: flex;
@@ -40,9 +41,9 @@ h1{
     color: #333333;
 }
 
-/*--------------------*/
+/*---------------------*/
 /*      NAV AREA      */
-/*--------------------*/
+/*-------------------*/
 
 nav {
     grid-column: 1;
@@ -87,9 +88,9 @@ nav ul {
     list-style-type: none;
 }
 
-/*----------------*/
+/*-----------------*/
 /*      MAIN      */
-/*----------------*/
+/*---------------*/
 
 #main{
     grid-column: 1;
@@ -97,9 +98,72 @@ nav ul {
     background-color: white;
 }
 
-/*------------------*/
+
+/*------------------------*/
+/*      NAV SIDEBAR      */
+/*----------------------*/
+
+.sidebar {
+    position: fixed;
+    right: 20px;
+    top: 5%;
+    width: 270px;
+    /*border: 1px black solid;*/
+    background-color: #cae1f6;
+    border-radius: 20px;
+    padding-bottom: 10px;
+  }
+  
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    text-decoration: none;
+    padding: 0 25px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.sidebar a:hover{
+    color: black;
+}
+
+.sidebar h3{
+    text-align: center;
+    font-size: 17pt;
+    margin-top: 15px;
+}
+
+
+/*-------------------------------*/
+/*      BACK TO TOP BUTTON      */
+/*-----------------------------*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+  
+    cursor: pointer;
+  
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  
+  .back-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+
+/*-------------------*/
 /*      FOOTER      */
-/*------------------*/
+/*-----------------*/
 
 footer {
     grid-column: 1;
@@ -885,4 +949,309 @@ footer p{
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
     margin-bottom: 50px;
+}
+
+
+
+
+
+/*---------------------------*/
+/*      WBYB Narrative      */
+/*-------------------------*/
+
+
+
+#N_wbybMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+#N_wbybMain #goBackButton{
+    padding: 10px;
+    background-color: #799EBF;
+    border-radius: 26px;
+    overflow: hidden;
+    border: 2px dotted black;
+}
+
+#N_wbybMain #goBackButton:hover{
+    filter: brightness(70%);
+}
+
+#N_wbybMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#N_wbybMain h3{
+    font-size: 35pt;
+    text-align: center;
+    margin-top: -35px;
+    padding-top: 0;
+    color: #333333;
+}
+
+#contextNwbyb h3, #gameNarrativeGoalwbyb_N h3, #playerFeelGoalwbyb_N h3, #plotresumewbyb_N h3, 
+#charactersNBackstorywbyb_N h3, #plotDevelopmentNGamewbyb_N h3, #gameNarrativeNSymbolismwbyb_N h3, 
+#riddleswbyb_N h3, #narrativeConceptswbyb_N h3, #learningReflectionwbyb_N h3{
+    text-align: left;
+    font-size: 27pt;
+    margin-top: 0;
+    padding-top: 30px;
+    color: black;
+}
+
+#SeeMoreABTGame h3{
+    text-align: center;
+    font-size: 27pt;
+    margin-top: 0;
+    padding-top: 0;
+    color: black;
+}
+
+#N_wbybMain h4{
+    font-size: 20pt;
+    padding: 0 15px;
+}
+
+#N_wbybMain h5{
+    font-size: 18pt;
+    padding: 0 15px;
+}
+
+
+#N_wbybMain p, #N_wbybMain b{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#N_wbybMain span{
+    font-size: 16pt;
+}
+
+#spanBox{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#gameNarrativeGoalwbyb_N img, #playerFeelGoalwbyb_N img, #plotresumewbyb_N img, #charactersNBackstorywbyb_N img, #riddleswbyb_N img{
+    max-width: 1100px;
+    display: block;
+    margin: auto auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 15pt;
+}
+
+#plotDevelopmentNGamewbyb_N table{
+    margin: 20px;
+}
+
+#plotDevelopmentNGamewbyb_N th, #plotDevelopmentNGamewbyb_N td{
+    text-align: left;
+}
+
+#contextNwbyb{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+.WarningText{
+    display: block;
+    text-align: center;
+    margin-bottom:  60px;
+    margin-top: 40px;
+    font-size: 21pt !important;
+}
+
+#overviewWBYB_N b{
+    padding: 0;
+}
+
+#overviewWBYB_N p{
+    margin-bottom: -10px;
+}
+
+#overviewWBYB_N{
+    padding-bottom: 20px;
+}
+
+#gridContextWbyb_N{
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: auto;
+    margin-top: -20px;
+}
+
+#contextNwbybTrailer{
+    padding-top: 40px;
+    margin-right: 15px;
+}
+
+#contextNwbybTrailer iframe{
+    width: 485px;
+    height: 280px;
+}
+
+
+
+
+#gameNarrativeGoalwbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#playerFeelGoalwbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#plotresumewbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#charactersNBackstorywbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+#characterFilipewbyb_N, #characterMiguelwbyb_N{
+    background-color: #cae1f6;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+#characterFilipewbyb_N h4, #characterMiguelwbyb_N h4{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25pt;
+    color: #333333;
+}
+
+#characterFilipewbyb_N p, #characterMiguelwbyb_N p{
+    padding: 0 50px;
+}
+
+#characterFilipewbyb_N h5, #characterMiguelwbyb_N h5{
+    padding: 0 50px;
+    margin-bottom: -10px;
+}
+
+#characterFilipewbyb_N img, #characterMiguelwbyb_N img{
+    width: 500px;
+}
+
+#characterFilipewbyb_N .sideBySideIMGS, #characterMiguelwbyb_N .sideBySideIMGS{
+    display: flex;
+    padding: 0 50px;
+}
+
+
+
+
+#plotDevelopmentNGamewbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+#plotDevelopmentNGamewbyb_N table{
+    background-color: whitesmoke;
+}
+
+
+
+
+#gameNarrativeNSymbolismwbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#riddleswbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#narrativeConceptswbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+#learningReflectionwbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.SeeMoreABTGame p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30pt !important;
+}
+
+.SeeMoreABTGame h3{
+    margin: -20px;
+    padding: 0;
+}
+
+.SeeMoreABTGame{
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
