@@ -1110,8 +1110,12 @@ th, td {
 #gameNarrativeGoalwbyb_N{
     background-color: #799EBF;
     border-radius: 30px;
-    padding: 5px 30px 30px 30px;
+    padding: 5px 30px 50px 30px;
     margin-bottom: 50px;
+}
+
+#gameNarrativeGoalwbyb_N p{
+    padding: 0 24px;
 }
 
 
@@ -1124,6 +1128,33 @@ th, td {
     margin-bottom: 50px;
 }
 
+#playerFeelGoalwbyb_N h5{
+    margin-bottom: -10px;
+}
+
+#gameNcolourwbyb_N{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#gameNcolourwbyb_N img{
+    width: 600px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#gameNmusicwbyb_N{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+#gameNmusicwbyb_N img{
+    width: 600px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
 
 
 
@@ -1135,6 +1166,17 @@ th, td {
     margin-bottom: 50px;
 }
 
+#plotResumeBoxwbyb_N{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -20px;
+}
+
+#plotResumeBoxwbyb_N img{
+    width: 500px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
 
 
 
@@ -1192,6 +1234,15 @@ th, td {
     background-color: #cae1f6;
 }
 
+#plotDevelopmentNGamewbyb_N h4{
+    margin-bottom: -10px;
+    padding: 5px 20px 0 20px;
+}
+
+#plotDevelopmentNGamewbyb_N p{
+    padding: 0 20px;
+}
+
 
 
 
@@ -1202,6 +1253,20 @@ th, td {
     margin-bottom: 50px;
 }
 
+#gameNarrativeNSymbolismwbyb_N li{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+#gameNarrativeNSymbolismwbyb_N ul li{
+    padding-bottom: 0px;
+}
+
+#gameNarrativeNSymbolismwbyb_N ol{
+    margin: 0 30px;
+}
 
 
 
@@ -1213,7 +1278,10 @@ th, td {
     margin-bottom: 50px;
 }
 
-
+#riddleswbyb_N p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 
 
@@ -1224,7 +1292,9 @@ th, td {
     margin-bottom: 50px;
 }
 
-
+#narrativeConceptswbyb_N h4{
+    margin-bottom: -10px;
+}
 
 
 
