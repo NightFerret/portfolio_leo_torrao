@@ -1325,3 +1325,7 @@ th, td {
     margin-top: 80px;
     margin-bottom: 70px;
 }
+
+.imgDefaultsize img{
+    width: 1180px;
+}
