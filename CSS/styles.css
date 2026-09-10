@@ -999,7 +999,7 @@ footer p{
 
 #contextNwbyb h3, #gameNarrativeGoalwbyb_N h3, #playerFeelGoalwbyb_N h3, #plotresumewbyb_N h3, 
 #charactersNBackstorywbyb_N h3, #plotDevelopmentNGamewbyb_N h3, #gameNarrativeNSymbolismwbyb_N h3, 
-#riddleswbyb_N h3, #narrativeConceptswbyb_N h3, #learningReflectionwbyb_N h3{
+#riddleswbyb_N h3, #narrativeConceptswbyb_N h3, #learningReflectionwbyb_N h3, #gameWorldwbyb_N h3{
     text-align: left;
     font-size: 27pt;
     margin-top: 0;
@@ -1178,6 +1178,16 @@ th, td {
     padding-top: 10px;
     padding-right: 20px;
 }
+
+
+
+#gameWorldwbyb_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
 
 
 
