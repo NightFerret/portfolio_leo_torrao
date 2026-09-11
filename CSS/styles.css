@@ -997,14 +997,14 @@ footer p{
     color: #333333;
 }
 
-#contextNwbyb h3, #gameNarrativeGoalwbyb_N h3, #playerFeelGoalwbyb_N h3, #plotresumewbyb_N h3, 
-#charactersNBackstorywbyb_N h3, #plotDevelopmentNGamewbyb_N h3, #gameNarrativeNSymbolismwbyb_N h3, 
-#riddleswbyb_N h3, #narrativeConceptswbyb_N h3, #learningReflectionwbyb_N h3, #gameWorldwbyb_N h3{
-    text-align: left;
-    font-size: 27pt;
-    margin-top: 0;
-    padding-top: 30px;
-    color: black;
+#contextN h3, #gameNarrativeGoalwbyb_N h3, #playerFeelGoal_N h3, #plotresume_N h3, 
+#charactersNBackstorywbyb_N h3, #plotDevelopmentNGame_N h3, #gameNarrativeNSymbolismwbyb_N h3, 
+#riddleswbyb_N h3, #narrativeConceptswbyb_N h3, #learningReflection_N h3, #gameWorld_N h3{
+    text-align: left !important;
+    font-size: 27pt !important;
+    margin-top: 0 !important;
+    padding-top: 30px !important;
+    color: black !important;
 }
 
 #SeeMoreABTGame h3{
@@ -1041,7 +1041,7 @@ footer p{
     padding-right: 15px;
 }
 
-#gameNarrativeGoalwbyb_N img, #playerFeelGoalwbyb_N img, #plotresumewbyb_N img, #charactersNBackstorywbyb_N img, #riddleswbyb_N img{
+#gameNarrativeGoalwbyb_N img, #playerFeelGoal_N img, #plotresume_N img, #charactersNBackstorywbyb_N img, #riddleswbyb_N img{
     max-width: 1100px;
     display: block;
     margin: auto auto;
@@ -1053,15 +1053,15 @@ th, td {
     font-size: 15pt;
 }
 
-#plotDevelopmentNGamewbyb_N table{
+#plotDevelopmentNGame_N table{
     margin: 20px;
 }
 
-#plotDevelopmentNGamewbyb_N th, #plotDevelopmentNGamewbyb_N td{
+#plotDevelopmentNGame_N th, #plotDevelopmentNGame_N td{
     text-align: left;
 }
 
-#contextNwbyb{
+#contextN{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
@@ -1076,31 +1076,31 @@ th, td {
     font-size: 21pt !important;
 }
 
-#overviewWBYB_N b{
-    padding: 0;
+#overview_N b{
+    padding: 0 !important;
 }
 
-#overviewWBYB_N p{
+#overview_N p{
     margin-bottom: -10px;
 }
 
-#overviewWBYB_N{
+#overview_N{
     padding-bottom: 20px;
 }
 
-#gridContextWbyb_N{
+#gridContext_N{
     display: grid;
     grid-template-columns: auto 500px;
     grid-template-rows: auto;
     margin-top: -20px;
 }
 
-#contextNwbybTrailer{
+#contextNTrailer{
     padding-top: 40px;
     margin-right: 15px;
 }
 
-#contextNwbybTrailer iframe{
+#contextNTrailer iframe{
     width: 485px;
     height: 280px;
 }
@@ -1122,14 +1122,14 @@ th, td {
 
 
 
-#playerFeelGoalwbyb_N{
+#playerFeelGoal_N{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
     margin-bottom: 50px;
 }
 
-#playerFeelGoalwbyb_N h5{
+#playerFeelGoal_N h5{
     margin-bottom: -10px;
 }
 
@@ -1160,20 +1160,20 @@ th, td {
 
 
 
-#plotresumewbyb_N{
+#plotresume_N{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
     margin-bottom: 50px;
 }
 
-#plotResumeBoxwbyb_N{
+#plotResumeBox_N{
     display: grid;
     grid-template-columns: auto auto;
     margin-top: -20px;
 }
 
-#plotResumeBoxwbyb_N img{
+#N_wbybMain #plotResumeBox_N img{
     width: 500px;
     padding-top: 10px;
     padding-right: 20px;
@@ -1181,7 +1181,7 @@ th, td {
 
 
 
-#gameWorldwbyb_N{
+#gameWorld_N{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
@@ -1234,23 +1234,23 @@ th, td {
 
 
 
-#plotDevelopmentNGamewbyb_N{
+#plotDevelopmentNGame_N{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
     margin-bottom: 50px;
 }
 
-#plotDevelopmentNGamewbyb_N table{
+#plotDevelopmentNGame_N table{
     background-color: #cae1f6;
 }
 
-#plotDevelopmentNGamewbyb_N h4{
+#plotDevelopmentNGame_N h4{
     margin-bottom: -10px;
     padding: 5px 20px 0 20px;
 }
 
-#plotDevelopmentNGamewbyb_N p{
+#plotDevelopmentNGame_N p{
     padding: 0 20px;
 }
 
@@ -1310,7 +1310,7 @@ th, td {
 
 
 
-#learningReflectionwbyb_N{
+#learningReflection_N{
     background-color: #799EBF;
     border-radius: 30px;
     padding: 5px 30px 30px 30px;
@@ -1352,4 +1352,54 @@ th, td {
     margin: 0 auto;
     justify-content: center;
     padding-top: 50px;
+}
+
+#N_mjourneyMain h4{
+    font-size: 20pt;
+    padding: 0 15px;
+}
+
+#N_mjourneyMain h5{
+    font-size: 18pt;
+    padding: 0 15px;
+}
+
+
+#N_mjourneyMain p, #N_mjourneyMain b{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#N_mjourneyMain span{
+    font-size: 16pt;
+}
+
+#N_mjourneyMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#N_mjourneyMain h3{
+    font-size: 35pt;
+    text-align: center;
+    margin-top: -35px;
+    padding-top: 0;
+    color: #333333;
+}
+
+
+#N_mjourneyMain #contextNTrailer iframe{
+    width: 600px;
+    height: 346px;
+}
+
+#N_mjourneyMain #gridContext_N{
+    grid-template-columns: auto 620px;
+}
+
+#N_mjourneyMain #contextText_N{
+    padding-top: 30px;
 }
