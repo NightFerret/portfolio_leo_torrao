@@ -1403,3 +1403,49 @@ th, td {
 #N_mjourneyMain #contextText_N{
     padding-top: 30px;
 }
+
+#N_mjourneyMain #plotresume_N img{
+    width: 500px;
+}
+
+#N_mjourneyMain #plotresume_N .textSection{
+    padding-top: 70px;
+}
+
+#N_mjourneyMain #plotresume_N #plotResumeBox_N{
+    margin-top: -80px;
+}
+
+#CharacterNBackstorymj_N{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+#CharacterNBackstorymj_N .sideBySideIMGS{
+    display: flex;
+    padding: 0 20px;
+}
+
+#CharacterNBackstorymj_N img{
+    width: 550px;
+}
+
+#CharacterNBackstorymj_N h3{
+    text-align: left !important;
+    font-size: 27pt !important;
+    margin-top: 0 !important;
+    padding-top: 30px !important;
+    color: black !important;
+}
+
+#N_mjourneyMain #plotDevelopmentNGame_N img{
+    padding: 15px;
+    width: 1110px;
+}
+
+#N_mjourneyMain #spanBox{
+    margin-bottom: 15px;
+}
