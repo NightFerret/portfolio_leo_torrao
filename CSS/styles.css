@@ -134,6 +134,11 @@ nav ul {
     margin-top: 15px;
 }
 
+.sidebar .subsection{
+    padding-left: 50px;
+    font-size: 12pt;
+}
+
 
 /*-------------------------------*/
 /*      BACK TO TOP BUTTON      */
@@ -1480,4 +1485,85 @@ th, td {
     font-size: 27pt;
     text-align: center;
     padding-top: 30px;
+}
+
+
+
+
+
+/*-----------------------------*/
+/*      WBYB Game Design      */
+/*---------------------------*/
+
+
+#GD_wbybMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#GD_wbybMain h4{
+    font-size: 20pt;
+    padding: 0 15px;
+}
+
+#GD_wbybMain h5{
+    font-size: 18pt;
+    padding: 0 15px;
+}
+
+
+#GD_wbybMain p, #GD_wbybMain b{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#GD_wbybMain span{
+    font-size: 16pt;
+}
+
+#GD_wbybMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#GD_wbybMain h3{
+    font-size: 35pt;
+    text-align: center;
+    margin-top: -35px;
+    padding-top: 0;
+    color: #333333;
+}
+
+
+#GD_wbybMain #contextNTrailer iframe{
+    width: 600px;
+    height: 346px;
+}
+
+#GD_wbybMain #gridContext_N{
+    grid-template-columns: auto 620px;
+}
+
+#GD_wbybMain #contextText_N{
+    padding-top: 30px;
+}
+
+.infoBox{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+.infoBox h3{
+    text-align: left !important;
+    font-size: 27pt !important;
+    margin-top: 0 !important;
+    padding-top: 30px !important;
+    color: black !important;
 }
