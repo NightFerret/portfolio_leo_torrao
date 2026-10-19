@@ -124,10 +124,12 @@
 
                     <div id="marketingPersona">
                         <h4>Marketing Persona</h4>
-                        <p><b>Name:</b> Maria do Carmo</p>
-                        <p><b>Age:</b> 20</p>
-                        <p><b>Gender:</b> Woman</p>
-                        <p><b>Profession:</b> University Student</p>
+                        <div id="marketingPersonaOverview">
+                            <p><b>Name:</b> Maria do Carmo</p>
+                            <p><b>Age:</b> 20</p>
+                            <p><b>Gender:</b> Woman</p>
+                            <p><b>Profession:</b> University Student</p>
+                        </div>
 
                         <h5>Influences - Movies</h5>
                         <div class="imgsInfluences">
@@ -214,11 +216,11 @@
                         </ul>
 
                         <h5>Influences - Social Media</h5>
-                        <div class="imgsInfluences">
+                        <div class="imgsInfluences2">
                             <img src="../img/img_wbyb_socialM_insta.png" alt="Instagram logo">
                             <img src="../img/img_wbyb_socialM_pin.png" alt="Pinterest Logo">
                         </div>
-                        <div class="imgsDescInfluences">
+                        <div class="imgsDescInfluences2">
                             <p>Instagram</p>
                             <p>Pinterest</p>
                         </div>
@@ -340,14 +342,14 @@
                     </p>
 
                     <h4 id="themeNcolour_GD">Theme & Colour</h4>
-                    <div class="grid2ColumnBox">
+                    <div class="grid2ColumnBox2">
                         <p>
                             This feature works as a representation of Miguel's mental state. The idea is that the world starts in b&w, 
                             and as the riddles get solved, the colour starts slowly coming back. This is to show that Miguel, our 
                             character that has depression, is slowly getting better as he starts solving his childhood riddles and 
                             reflecting upon his life.
                         </p>
-                        <img src="../img/GIF_ColourComingBack.gif" alt="GIF image example of colour coming back">
+                        <img src="../img/GIF_ColourComingBack.gif" alt="GIF image example of colour coming back" id="themengameimg1">
                     </div>
 
                     <h4 id="themeNmusic">Theme & Music</h4>
@@ -360,19 +362,22 @@
                     </p>
 
                     <h4 id="themeNnarrative">Theme & Narrative</h4>
-                    <p>
-                        This game’s narrative and experience was designed to be able to really be able to raise awareness regarding 
-                        repression, even to someone who has never experienced it. I had two minor goals. 1- make the player see how 
-                        depression affects one's life. 2- make the player feel how depression impacts one's world.
-                    </p>
                     <div class="grid2ColumnBox">
-                        <p>
-                            To satisfy the first goal we focused mainly on narrative. By trying to show to the player the character's state of mind, 
-                            how he analyses the world around him, and how he interprets his past experiences.
-                        </p>
-                        <img src="../img/WBYB_N_notebook.png" alt="">
+                        <div>
+                            <p>
+                                This game’s narrative and experience was designed to be able to really be able to raise awareness regarding 
+                                repression, even to someone who has never experienced it. I had two minor goals. 1- make the player see how 
+                                depression affects one's life. 2- make the player feel how depression impacts one's world.
+                            </p>
+                            <p>
+                                To satisfy the first goal we focused mainly on narrative. By trying to show to the player the character's state of mind, 
+                                how he analyses the world around him, and how he interprets his past experiences.
+                            </p>
+                        </div>
+                        <img src="../img/WBYB_N_notebook.png" alt="example of the character's thoughts" id="themengameimg2">
                     </div>
                     <div class="grid2ColumnBox">
+                        <img src="../img/WBYB_N_charanalysisDif.png" alt="example of different character analysis" id="themengameimg3">
                         <p>
                             And to satisfy our second goal, we focused on the gameplay experience. We wanted the player to feel like something 
                             was missing when the character was depressed. We wanted the player to feel the change from depression to no 
@@ -380,7 +385,6 @@
                             the analysis he does of a riddle is more pessimistic. But when he is less depressed, the analysis he does is 
                             more optimistic.
                         </p>
-                        <img src="../img/WBYB_N_charanalysisDif.png" alt="example of different character analysis">
                     </div>
                 </div>
             </div>
@@ -457,7 +461,7 @@
                     <p>The following schemes explain the intended signs and feedback intended for our game.</p>
                     <h5>Enter Photo Mode</h5>
                     <img src="../img/img_wbyb_puz_enter_photo.png" alt="Signs and feedback image Enter Photo Mode">
-                    <p>When you enter photo mode:</p>
+                    <b>When you enter photo mode:</b>
                     <ul>
                         <li>You hear a camera turning on Sound</li>
                         <li>The UI changes from the standard view UI to photo mode UI</li>
@@ -465,7 +469,7 @@
                     </ul>
                     <h5>Exit Photo Mode</h5>
                     <img src="../img/img_wbyb_puz_exit_photo.png" alt="Signs and feedback image Exit Photo Mode">
-                    <p>When you exit photo mode:</p>
+                    <b>When you exit photo mode:</b>
                     <ul>
                         <li>You hear a camera turning off Sound</li>
                         <li>The UI changes from the photo mode UI to the standard view UI</li>
@@ -473,12 +477,12 @@
                     </ul>
                     <h5>Take a Photo</h5>
                     <img src="../img/img_wbyb_puz_take_photo.png" alt="Signs and feedback image Take a Photo">
-                    <p>When you take a photo:</p>
+                    <b>When you take a photo:</b>
                     <ul>
                         <li>You hear a camera taking a photo Sound</li>
                         <li>There’s an animation of the camera capturing the photo (like digi cams do)</li>
                     </ul>
-                    <p>When the photo you took corresponds to the riddle, on top of the feedback for a photo you also get:</p>
+                    <b>When the photo you took corresponds to the riddle, on top of the feedback for a photo you also get:</b>
                     <ul>
                         <li>A notebook writing sfx</li>
                         <li>The music gets more uplifting</li>
@@ -491,7 +495,7 @@
                         <li>The game saturation of the game goes up a bit</li>
                         <li>The object to which the riddle belongs to gets full saturation</li>
                     </ul>
-                    <p>When the photo you took doesn’t correspond to the riddle, on top of the feedback for a photo you also get:</p>
+                    <b>When the photo you took doesn’t correspond to the riddle, on top of the feedback for a photo you also get:</b>
                     <ul>
                         <li>The character saying something like “Hmm, I don’t think that fits the riddle”</li>
                         <li>A dialogue box appears with the previous line</li>
@@ -499,14 +503,14 @@
                     <h5>Get a Hint</h5>
                     <p>PS: This feature is not implemented in the vertical slice</p>
                     <img src="../img/img_wbyb_puz_get_hint.png" alt="Signs and feedback image Get a Hint">
-                    <p>When you press the button to get a hint (H):</p>
+                    <b>When you press the button to get a hint (H):</b>
                     <ul><li>You hear the sfx of a bell</li></ul>
-                    <p>When you still have hints to use, on top of the feedback from pressing the button you also get:</p>
+                    <b>When you still have hints to use, on top of the feedback from pressing the button you also get:</b>
                     <ul>
                         <li>The character says something like “I need help on this one…”</li>
                         <li>You get a "no riddle selected" message on the riddle tab (previously another riddle would be assigned automatically)</li>
                     </ul>
-                    <p>When you no longer have hints to use, on top of the feedback from pressing the button you also get:</p>
+                    <b>When you no longer have hints to use, on top of the feedback from pressing the button you also get:</b>
                     <ul><li>The character saying something like “I can’t get more help on this one”</li></ul>
                 </div>
             </div>
@@ -619,30 +623,38 @@
                         <img src="../img/WBYB_N_riddleChange.png" alt="How the riddle was modified">
 
                         <h5>Erasing Photos</h5>
-                        <p>
-                            Another problem pointed out by our testers was the erasing photos mechanic. The testers first contact 
-                            with the mechanic was messy; since there wasn’t much feedback in the version they tested. Most of the 
-                            testers erased pictures by accident, and, as expected, this made them a bit frustrated, which was 
-                            not our goal at all. So our fix for this was to show a trash Icon hovering the pictures, so the 
-                            player knows that if you press it, it will be erased.
-                        </p>
-                        <p>
-                            It is important to mention that this is true for our vertical slice only, since the mechanic was 
-                            supposed to be a bit different in the final game.
-                        </p>
-                        <img src="../img/GIF_ErasingPictures.gif" alt="GIF image exemplifying how the photo erasing mechanic worked" >
+                        <div class="grid2ColumnBox">
+                            <div>
+                                <p>
+                                    Another problem pointed out by our testers was the erasing photos mechanic. The testers first contact 
+                                    with the mechanic was messy; since there wasn’t much feedback in the version they tested. Most of the 
+                                    testers erased pictures by accident, and, as expected, this made them a bit frustrated, which was 
+                                    not our goal at all. So our fix for this was to show a trash Icon hovering the pictures, so the 
+                                    player knows that if you press it, it will be erased.
+                                </p>
+                                <p>
+                                    It is important to mention that this is true for our vertical slice only, since the mechanic was 
+                                    supposed to be a bit different in the final game.
+                                </p>
+                            </div>
+                            <img src="../img/GIF_ErasingPictures.gif" alt="GIF image exemplifying how the photo erasing mechanic worked" id="playtestgif1">
+                        </div>
 
                         <h5>Photo Captured Feedback</h5>
-                        <p>
-                            And the third example I have of problems we encountered with playtests is the feedback of taking pictures. 
-                            On the version that the testers tested, when you took a photo you would exit the camera mode. The testers 
-                            mentioned that this was confusing because they didn’t know if they were taking pictures or not.
-                        </p>
-                        <p>
-                            We fixed this issue by making a shutter animation when the player takes a photo; and now when the player 
-                            takes a photo they don’t exit photo mode automatically.
-                        </p>
-                        <img src="../img/GIF_TakingPics.gif" alt="GIF image exemplifying how the photographing mechanic worked">
+                        <div class="grid2ColumnBox">
+                            <div>
+                                <p>
+                                    And the third example I have of problems we encountered with playtests is the feedback of taking pictures. 
+                                    On the version that the testers tested, when you took a photo you would exit the camera mode. The testers 
+                                    mentioned that this was confusing because they didn’t know if they were taking pictures or not.
+                                </p>
+                                <p>
+                                    We fixed this issue by making a shutter animation when the player takes a photo; and now when the player 
+                                    takes a photo they don’t exit photo mode automatically.
+                                </p>
+                            </div>
+                            <img src="../img/GIF_TakingPics.gif" alt="GIF image exemplifying how the photographing mechanic worked" id="playtestgif2">
+                        </div>
                         <b class="WarningText">To read more about the playtests and their feedback, make sure to read 
                             <a href="https://drive.google.com/file/d/1WUBz1luv2aCM95_lK5heUOHWY_jDxbej/view?usp=sharing" target="_blank">
                                 <span style="font-weight: 400;" >this analysis!</span>
@@ -743,7 +755,7 @@
                 <p>
                     I really liked working on this project and the process that got me to our vertical slice. Since the previous 
                     university project I have learned so much more. I learned new game design concepts and methodologies, which 
-                    helped me a lot to do better documentation and have a better and a process that fits me more.
+                    helped me a lot to do better documentation and have a better process that fits me more.
                 </p>
                 <p>
                     I also got to explore the design process of a 3D game, since I’ve done way less 3D games than 2D games. And 
