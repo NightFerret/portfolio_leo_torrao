@@ -1696,6 +1696,78 @@ th, td {
     margin-top: -10px;
 }
 
-#UInUX_GD img, #rationalGD_GD img, #gameplayLoop_GD img, #retentionLoop_GD img{
+#UInUX_GD img, #rationalGD_GD img, #gameplayLoop_GD img, #retentionLoop_GD img, #levelDesignGD img{
     width: 100%;
+}
+
+
+
+
+/*---------------------------*/
+/*      MJ Game Design      */
+/*-------------------------*/
+
+#GD_mjMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#GD_mjMain h4{
+    font-size: 25pt;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+#GD_mjMain h5{
+    font-size: 20pt;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+#GD_mjMain p, #GD_mjMain b{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#GD_mjMain span{
+    font-size: 16pt;
+}
+
+#GD_mjMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#GD_mjMain h3{
+    font-size: 35pt;
+    text-align: center;
+    margin-top: -35px;
+    padding-top: 0;
+    color: #333333;
+}
+
+
+#GD_mjMain #contextNTrailer iframe{
+    width: 600px;
+    height: 346px;
+    margin-top: -60px;
+    margin-bottom: -40px;
+}
+
+#GD_mjMain #gridContext_N{
+    grid-template-columns: auto auto;
+}
+
+#GD_mjMain #designResearch b, #GD_mjMain #targetAudience_GD b{
+    padding: 0;
+}
+
+#GD_mjMain #signsNFeedback img{
+    margin-bottom: 40px;
 }
