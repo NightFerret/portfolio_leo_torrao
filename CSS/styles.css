@@ -1841,3 +1841,80 @@ th, td {
     border-radius: 8px;
     margin-bottom: 50px;
 }
+
+
+
+/*-------------------*/
+/*      UX MIT      */
+/*-----------------*/
+
+#UX_mitMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#UX_mitMain h4{
+    font-size: 25pt;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+#UX_mitMain h5{
+    font-size: 20pt;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+#UX_mitMain p, #UX_mitMain b{
+    font-size: 16pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#UX_mitMain span{
+    font-size: 16pt;
+}
+
+#UX_mitMain h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#UX_mitMain h3{
+    font-size: 35pt;
+    text-align: center;
+    margin-top: -35px;
+    padding-top: 0;
+    color: #333333;
+}
+
+.Mechanic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #cae1f6;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.column3{
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    gap: 30px;
+    margin-top: -30px;
+}
+
+.column3 img{
+    width: 320px;
+}
+
+#AccssFeatures img, #Heuristics img{
+    margin-top: 0;
+    margin-bottom: 0;
+}
