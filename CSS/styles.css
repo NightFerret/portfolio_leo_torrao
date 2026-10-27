@@ -1916,3 +1916,82 @@ th, td {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+
+
+/*--------------------------*/
+/*      AGD PORTFOLIO      */
+/*------------------------*/
+
+
+#mainAGDPortfolio{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#mainAGDPortfolio h2{
+    text-align: center;
+    font-size: 50pt;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#mainAGDPortfolio h3{
+    font-size: 27pt;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#agdShowcaseBigBox{
+    background-color: #799EBF;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;   
+}
+
+
+
+#agdShowcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+}
+
+#agdShowcase h4{
+    margin: 0;
+    padding: 20px 30px 0 30px;
+    font-size: 17pt;
+}
+
+#agdShowcase p{
+    margin: 0;
+    padding: 20px 30px 10px 30px;
+    line-height: 1.5;
+}
+
+#agdShowcase img{
+    width: 88%;
+    margin: 0 30px 30px 30px;
+}
+
+#agdShowcase img:hover{
+    filter: brightness(50%)
+}
+
+#WBYB_agd_Showcase{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+    margin-left: 50px;
+    padding-top: 25px;
+    background-color: #cae1f6;
+    border-radius: 8px;   
+}
+
+#WBYB_agd_Showcase img{
+    padding-top: 25px;
+}
