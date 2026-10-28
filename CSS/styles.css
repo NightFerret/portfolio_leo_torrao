@@ -102,17 +102,42 @@ nav ul {
 /*------------------------*/
 /*      NAV SIDEBAR      */
 /*----------------------*/
-
+/*
 .sidebar {
     position: fixed;
     right: 20px;
     top: 5%;
     width: 270px;
-    /*border: 1px black solid;*/
     background-color: #cae1f6;
     border-radius: 20px;
     padding-bottom: 10px;
   }
+  */
+
+  .sidebar {
+    position: fixed;
+    right: 20px;
+    top: 5%;
+    width: 270px;
+    background-color: #cae1f6;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    transition:
+        transform 0.4s ease,
+        opacity 0.4s ease,
+        visibility 0.4s ease;
+}
+
+.sidebar.closed {
+    transform: translateX(calc(100% + 20px));
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
   
 .sidebar a {
     display: block;
@@ -2006,4 +2031,63 @@ th, td {
 .contextPlayGam {
     padding-top: 20px;
     text-align: right;
+}
+
+
+/*-----------------------------*/
+/*      HAMBURGER BUTTON      */
+/*---------------------------*/
+
+/* Hamburger button */
+.menu-toggle {
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    z-index: 1001;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    right: 20px;
+    top: 5%;
+    width: 270px;
+    background-color: #cae1f6;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+    /* Smooth animation */
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.sidebar.hidden {
+    transform: translateX(calc(100% + 20px));
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Close button */
+.menu-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hide hamburger when sidebar is visible */
+.menu-toggle {
+    display: none;
+}
+
+/* Show hamburger when sidebar is hidden */
+.menu-toggle.visible {
+    display: block;
 }
