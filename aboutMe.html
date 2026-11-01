@@ -31,7 +31,24 @@
         </ul>
     </nav>
 
+    <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="sidebar"
+    >
+        ☰
+    </button>
+
     <aside class="sidebar">
+        <button
+            class="menu-close"
+            id="menuClose"
+            aria-label="Close navigation menu"
+        >
+            &times;
+        </button>
         <h3>On this page</h3>
     
         <a href="#aboutmeResumeSection">Overview</a>
@@ -72,7 +89,7 @@
                     </p>
                 </div>
                 <div id="ABTMERScol2">
-                    <img src="img/pfp_me.jpg" alt="Leo Photo" style="width: 100%">
+                    <img src="img/pfp_me.png" alt="Leo Photo" style="width: 100%">
                     <h3>Leo Torrão
                         _______________________
                     </h3>
@@ -258,6 +275,7 @@
         ↑ Top
     </button>
     <script src="js/backTopButton.js"></script>
+    <script src="../js/hamburger.js"></script>
 
 </body>
 
