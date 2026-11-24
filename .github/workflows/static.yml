@@ -1,6 +1,8 @@
 
 # Deploy static content to GitHub Pages
 name: Deploy static content to Pages
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 on:
   push:
