@@ -560,10 +560,10 @@ footer p{
 /*  GAME DEV COMMUNITY  */
 
 #gameDevCommunitySection{
+    background-color: #799EBF;
     margin-top: 50px;
-    border: 2px dotted  #799EBF ;
-    padding: 0 20px 5px 20px;
-    color: #333333;
+    padding: 3px 20px;
+    border: 2px dotted  black ;
 }
  
 #gameDevCommunitySection .slideshow-container{
@@ -580,10 +580,11 @@ footer p{
 /*  GAME AWARDS  */
 
 #gameAwardsSection{
-    background-color: #799EBF;
     margin-top: 50px;
-    padding: 3px 20px;
-    border: 2px dotted  black ;
+    border: 2px dotted  #799EBF ;
+    padding: 0 20px 5px 20px;
+    color: #333333;
+
 }
 
 #gameAwardsSection p{
